@@ -1,50 +1,59 @@
 // COLORS
+html {
+    --orange-300: #fdba74;
+    --orange-200: #fed7aa;
 
-$orange-300: #fdba74;
-$orange-200: #fed7aa;
+    --teal-600: #0d9488;
+    --teal-700: #0f766e;
 
-$teal-600: #0d9488;
-$teal-700: #0f766e;
+    --emerald-500: #10b981;
+    --emerald-600: #059669;
 
-$emerald-500: #10b981;
-$emerald-600: #059669;
+    --zinc-700: #3f3f46;
+    --zinc-600: #52525b;
 
-$zinc-700: #3f3f46;
-$zinc-600: #52525b;
+    --red: #f87171;
+    --yellow: #facc15;
+    --amber: #78350f;
 
-$red: #f87171;
-$yellow: #facc15;
-$amber: #78350f;
+    --gray-400: #9ca3af;
+    --gray-300: #d1d5db;
+    --gray-100: #f3f4f6;
 
-$gray-400: #9ca3af;
-$gray-300: #d1d5db;
-$gray-100: #f3f4f6;
+    --brown-900: #634832;
+    --brown-600: #967259;
+    --brown-300: #dbc1ac;
+    --brown-100: #ece0d1;
 
-$brown-900: #634832;
-$brown-600: #967259;
-$brown-300: #dbc1ac;
-$brown-100: #ece0d1;
+    --white: #fff;
+    --black: #000;
 
-$white: #ffffff;
+    --bg-color-white: var(--white);
 
-// icon color
+    // icon color
 
-$icon-color-orange: $orange-200;
-$icon-color-gray: $gray-400;
-$icon-color-zinc: $zinc-700;
-$icon-color-emerald: $emerald-600;
+    --icon-color-orange: var(--orange-200);
+    --icon-color-gray: var(--gray-400);
+    --icon-color-zinc: var(--zinc-700);
+    --icon-color-emerald: var(--emerald-600);
 
-// text color
+    // text color
 
-$text-color-zinc: $zinc-700;
-$text-color-orange-200: $orange-200;
-$text-color-orange-300: $orange-300;
-$text-color-gray-300: $gray-300;
+    --text-color-zinc: var(--zinc-700);
+    --text-color-orange-200: var(--orange-200);
+    --text-color-orange-300: var(--orange-300);
+    --text-color-gray-300: var(--gray-300);
 
-// BORDER RADIUS
+    // BORDER RADIUS
 
-$radius-150: 6px;
-$radius-300: 12px;
-$radius-400: 16px;
-$radius-600: 24px;
-$radius-800: 32px;
+    --radius-150: 6px;
+    --radius-300: 12px;
+    --radius-400: 16px;
+    --radius-600: 24px;
+    --radius-800: 32px;
+}
+
+html.dark {
+    --text-color-zinc: var(--white);
+    --bg-color-white: var(--zinc-700);
+}

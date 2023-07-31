@@ -108,9 +108,9 @@ ul {
     align-items: center;
     justify-content: space-between; }
   .header__navigation {
+    flex: 0 1 55rem;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 0 2rem;
     width: 42.5%; }
     .header__navigation--logo {
@@ -142,7 +142,7 @@ ul {
         font-family: "Dana Medium";
         color: var(--text-color-orange-200) !important; }
   .header__icons {
-    width: 24%;
+    flex: 0 1 31.6rem;
     display: flex;
     align-items: center;
     justify-content: space-between; }
